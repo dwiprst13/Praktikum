@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortofolioKu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="image/dp.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="bg-[#1A1A1D]">
+    <section id="navbar" class="navbar sticky top-3 z-50">
+        <div class="flex justify-center">
+            <div class="bg-[#1A1A1D] flex justify-center rounded-full border border-2 border-[#C3073F] shadow-[#C3073F] drop-shadow-xl font-bold text-white">
+                <div class="py-3 px-6 hover:text-[#C3073F] duration-500"><a href="#about" class="nav-link">About</a></div>
+                <div class="py-3 px-6 hover:text-[#C3073F] duration-500"><a href="#project" class="nav-link">Project</a></div>
+                <div class="py-3 px-6 hover:text-[#C3073F] duration-500"><a href="#contact" class="nav-link">Contact Me</a></div>
+            </div>
+        </div>
+    </section>
+    <section id="home" class=" w-[100%] mx-auto bg-cover bg-center">
+        <div class="w-[90%] md:w-[85%] lg:w-[80%] flex mx-auto ">
+            <div class="grid h-screen text-white px-4 py-8 mx-auto ">
+                <div class="mr-auto text-center place-self-center">
+                    <p class="text-lg p-1">
+                        Welcome To My Portofolio Website
+                    </p>
+                    <h1 class=" max-w-3xl mb-4 text-3xl font-extrabold tracking-tight leading-none hover:text-[#C3073F] md:text-5xl xl:text-6xl py-6 duration-500">
+                        DWI PRASETIA
+                    </h1>
+                    <a href="#about" class="p-3 border-2 border-[#C3073F] hover:bg-[#C3073F] rounded-full drop-shadow-xl duration-500">
+                        Let's Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class=" w-[100%] mx-auto md:h-screen bg-cover bg-center z-10">
+        <div class=" flex flex-col w-[90%] md:w-[85%] lg:w-[80%] flex mx-auto ">
+            <div class="grid text-white px-4 py-8 mx-auto">
+                <h1 class="text-xl font-bold pt-9">About Me</h1>
+            </div>
+            <div id="myModal" class="fixed top-0 z-50 left-0 w-full h-screen overflow-y-auto bg-black bg-opacity-60 hidden" style="transition: opacity 0.5s ease-in-out;">
+                <div class="flex items-center justify-center min-h-screen">
+                    <div class="flex flex-col border border-[#C3073F] w-[90%] md:w-8/12 shadow shadow-lg bg-[#1A1A1D] opacity-100 rounded-lg shadow-lg p-8">
+                        <div class="text-white text-center">
+                            <p>My Name is <span class="text-[#C3073F] font-bold">Dwi Prasetia</span>, You can call me <span class="text-[#C3073F] font-bold">Dwi</span>. I'm live in <span class="text-[#C3073F] font-bold">Krinjing Wijimulyo, Nanggulan, Kulon Progo</span>. I was born at <span class="text-[#C3073F] font-bold"> December 13th, 2001 in Kulon Progo</span>. I'm a <span class="text-[#C3073F] font-bold">Informatics Student at Alma Ata University</span>.</p>
+                        </div>
+                        <div class="flex justify-center pt-8">
+                            <button id="closeModal" class="text-lg rounded-full text-[#C3073F] focus:border-none font-bold hover:shadow hover:drop-shadow-xl">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="grid grid-cols-12">
+                <div class="text-white col-span-12 md:col-span-8 place-self-center">
+                    <div class="space-y-6 ">
+                        <h1 class="text-3xl font-bold">
+                        Let’s get know about <span class="text-[#C3073F]">Prasetia's</span> closer
+                        </h1>
+                        <p class="text-lg">
+                            I'm a Informatics Student at Alma Ata University since 2022.
+                        </p>
+                        <button id="more" class="bg-[#1A1A1D] p-2 rounded-lg drop-shadow-xl hover:bg-[#C3073F] hover:text-white border border-[#C3073F] duration-500 hover:shadow-2xl hover:shadow-[#C3073F]">
+                            More About Me?
+                        </button>
+                    </div>
+                </div>
+                <div class="hidden md:block col-span-4 p-10 relative hover:scale-105 duration-500 ">
+                    <img src="/image/dp.jpg" alt="photo" class="object-contain rounded-lg shadow-2xl card-img"/>
+                    <div class="absolute bg-[#C3073F] inset-0 flex items-center justify-center opacity-0 hover:opacity-100 hover:bg-opacity-50 duration-500 m-10 rounded-lg ">
+                        <p class="text-white text-2xl font-bold">Dwi Prasetia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class=" w-[100%] mx-auto md:h-screen bg-cover bg-center">
+        <div class="w-[90%] md:w-[85%] lg:w-[80%] flex flex-col mx-auto ">
+            <div class="grid text-white px-4 py-8 mx-auto">
+                <h1 class="text-xl font-bold pt-9">Project</h1>
+            </div>
+            <div class=" flex flex-col md:grid md:grid-cols-12 md:gap-5 md:p-10">
+                <div class="md:col-span-4 relative hover:scale-105 duration-500 m-4" data-aos="fade-right" data-aos-duration="500">
+                    <img src="/image/android.jpeg" alt="photo" class="object-fill rounded-lg shadow-2xl card-img h-96"/>
+                    <div class="absolute bg-[#C3073F] p-10 inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 hover:bg-opacity-50 duration-500 rounded-lg justify-between">
+                        <p class="text-white text-2xl font-bold mt-20">Android</p>
+                        <button class="bg-[#1A1A1D] p-2 rounded-lg drop-shadow-xl w-[40%] text-white hover:bg-[#C3073F] hover:text-white border-2 border-white duration-500 hover:shadow-2xl hover:shadow-[#C3073F]">
+                            <a href="https://youtu.be/mkxer6pxQ6I?si=N8Hctem0ezqcNJ59" target="_blank">Detail</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:col-span-4 relative hover:scale-105 duration-500 m-4" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/image/tidur.jpg" alt="photo" class="object-fill rounded-lg shadow-2xl card-img h-96"/>
+                    <div class="absolute bg-[#C3073F] p-10 inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 hover:bg-opacity-50 duration-500 rounded-lg justify-between">
+                        <p class="text-white text-2xl font-bold mt-20">Turu</p>
+                        <button class="bg-[#1A1A1D] p-2 rounded-lg drop-shadow-xl w-[40%] text-white hover:bg-[#C3073F] hover:text-white border-2 border-white duration-500 hover:shadow-2xl hover:shadow-[#C3073F]">
+                            <a href="https://youtu.be/xm3YgoEiEDc?si=KMZh3X5sXociwZYH" target="_blank">Detail</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-span-4 relative hover:scale-105 duration-500 m-4" data-aos="fade-left" data-aos-duration="500">
+                    <img src="/image/web.jpg" alt="photo" class="object-fill rounded-lg shadow-2xl card-img h-96"/>
+                    <div class="absolute bg-[#C3073F] p-10 inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 hover:bg-opacity-50 duration-500 rounded-lg justify-between">
+                        <p class="text-white text-2xl font-bold mt-20">Web</p>
+                        <button class="bg-[#1A1A1D] p-2 rounded-lg drop-shadow-xl w-[40%] text-white hover:bg-[#C3073F] hover:text-white border-2 border-white duration-500 hover:shadow-2xl hover:shadow-[#C3073F]">
+                            <a href="https://youtu.be/dQw4w9WgXcQ?si=lBVezCS5H_yyK9cy" target="_blank">Detail</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class=" w-[100%] md-screen mx-auto bg-cover bg-center my-10">
+        <div class="w-[95%] md:w-[85%] lg:w-[80%] flex mx-auto">
+            <div class="grid grid-cols-12 text-white mx-auto w-[85%] md:w-[50%]">
+                <div class="col-span-12 px-4 py-8 mx-auto">
+                    <h1 class="text-xl font-bold pt-9">Contact Me</h1>
+                </div>
+                <div class="col-span-12">
+                    <form id="myForm" class="space-y-6 place-self-center" action="">
+                        <div>
+                            <label for="name" class="block text-sm font-medium leading-6 ">Name</label>
+                            <div class="mt-2">
+                                <input id="name" name="name" type="text" placeholder="Name" autocomplete="off" required  class="block w-full rounded-md border-0 py-1.5 text-gray-900  p-3 shadow-sm placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium leading-6 ">Email</label>
+                            <div class="mt-2">
+                                <input id="email" name="email" type="email" placeholder="Email" autocomplete="off" required  class="block w-full rounded-md border-0 py-1.5 text-gray-900 p-3 shadow-sm fokus:none placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="isi" class="block text-sm font-medium leading-6 ">Purpose</label>
+                            <div class="mt-2">
+                                <textarea id="isi" name="isi" rows="3" cols="50" type="text" placeholder="Purpose" autocomplete="off" required class="block w-[100%] rounded-md border-0 py-1.5 p-3 text-gray-900 white shadow-sm placeholder:text-gray-400 sm:text-sm sm:leading-6"></textarea>
+                            </div>
+                        </div>
+                        <div class="flex justify-center font-bold">
+                            <button id="sendButton" class="bg-[#1A1A1D] p-2 rounded-lg drop-shadow-xl w-[40%] text-[#C3073F] hover:bg-[#C3073F] hover:text-white border-2 border-[#C3073F] duration-500 hover:shadow-2xl hover:shadow-[#C3073F]">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+            var homeSection = document.getElementById('home');
+
+            if (window.scrollY > homeSection.offsetHeight) {
+                navbar.style.display = 'block';
+            } else {
+                navbar.style.display = 'none';
+            }
+
+            var sections = document.querySelectorAll('.section');
+            var navLinks = document.querySelectorAll('.nav-link');
+
+            sections.forEach(function(section, index) {
+                var top = section.offsetTop - 50;
+                var bottom = top + section.offsetHeight;
+
+                if (window.scrollY >= top && window.scrollY < bottom) {
+                    navLinks.forEach(function(link) {
+                        link.classList.remove('active');
+                    });
+                    navLinks[index].classList.add('active');
+                }
+            });
+        });
+
+        const modal = document.getElementById('myModal');
+        const moreButton = document.getElementById('more');
+        const closeButton = document.getElementById('closeModal');
+
+        function showModal() {
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+            modal.classList.add('opacity-100');
+            }, 500); 
+        }
+
+        function hideModal() {
+            modal.classList.remove('opacity-100');
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+            modal.classList.add('hidden');
+            }, 500); 
+        }
+        moreButton.addEventListener('click', showModal);
+        closeButton.addEventListener('click', hideModal);
+
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+            
+        });
+
+        document.getElementById('sendButton').addEventListener('click', function() {
+            const confirmation = confirm('Are you sure to send this message?');
+            if (confirmation) {
+                alert('Your message has been send to ********');
+            } else {
+                alert('IDC what your choice, but your message still send to *******');
+            }
+        });
+        
+        AOS.init();
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+<!-- GAPAKE TEMPLATE!!!!!!!!!! -->
